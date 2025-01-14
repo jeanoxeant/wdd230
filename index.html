@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jean Rubin Oxeant - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development I - Jean Rubin Oxeant - Home Page">
+    <meta name="author" content="Jean Rubin Oxeant">
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getDates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="images/profile1.jpg" width="75" height="100" alt="Jean Oxeant Profile">
+        <h1>Jean Rubin Oxeant</h1> 
+    </header>
+    <nav class="topnavs">
+        <ul class="navigations">
+            <li><a href="#index.html" class="active">Home</a></li>
+            <li><a href="#index.html">Chamber</a></li>
+            <li><a href="#index.html">Site Plan</a></li>
+            <li><a href="#index.html">Form</a></li>
+        </ul>   
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <div class="block">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li class="mod">Week 01:<a href="#">Layout |</a><a href="#">Media Query |</a><a href="#">JS Pen</a></li>
+                    <li><a>Week 02:</a></li>
+                    <li><a>Week 03:</a></li>
+                    <li><a>Week 04:</a></li>
+                    <li><a>Week 05:</a></li>
+                    <li><a>Week 06:</a></li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Information</h2>
+                <p>Miches, DR</p>
+                <p>76&deg;F-Sunshine</p>
+                <p>Pages: 15</p>
+            </section>
+        </div>
+        
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> ‖ Jean Rubin Oxeant ‖ Dominican Republic <img src="images/dom-flag.jpg"
+                width="50" height="25" alt="Jean Oxeant"></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer> 
 </body>
 </html>
 

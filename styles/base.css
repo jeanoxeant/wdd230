@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    margin: auto;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #002570;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+header img {
+    margin-right: 30px;
+    box-shadow: 10px 10px rgb(37, 26, 26); 
+}
+
+main h1 {
+    /*font-weight: 100;*/
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin-top: 25px;
+}
+
+h2 {
+    background-color: #002570;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+    
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.card p {
+    text-align: center;
+}
+
+p, ul {
+    padding: 10px;
+}
+
+.block, main h1 {
+    margin: 1rem 2vw;
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: auto;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+.active {
+	color: #fff;
+    background-color: rgba(59, 6, 9, 0.363);
+}
+
+footer {
+    max-width: 100%;
+    text-align: center;
+    color:white;
+    border-top: 1px solid #ccc;
+    background-color: #002570;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mod a {
+    margin-left: 10px;
+}
+
