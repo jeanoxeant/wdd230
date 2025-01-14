@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border;
+    box-sizing: auto;
 }
 
 body {
@@ -65,7 +65,7 @@ p, ul {
 nav {
 	background-color: #36454f;
 	margin: 0 auto;
-	max-width: auto;
+	/*max-width: auto;*/
 }
 nav ul {
 	list-style-type: none;
