@@ -27,11 +27,15 @@ header img {
     box-shadow: 10px 10px rgb(37, 26, 26); 
 }
 
-main h1 {
+h1 {
     /*font-weight: 100;*/
     font-size: 1.5rem;
     border-bottom: 1px solid black;
     margin-top: 25px;
+}
+
+header p {
+    font-size: 2rem;
 }
 
 h2 {
