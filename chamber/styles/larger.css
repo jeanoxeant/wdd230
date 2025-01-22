@@ -1,0 +1,40 @@
+@media only screen and (min-width: 35rem){
+    .block {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      column-gap: 10px;
+    }
+  
+    .card {
+      box-shadow: 1px 1px 10px black;
+    }
+  
+    nav ul {
+          display: flex;
+      }
+      nav ul li {
+          flex: 1 1 100%;
+      }
+  
+    h1 {
+      font-weight: 100;
+    }
+
+    header p {
+      font-size: 1.5rem;
+  }
+  
+    /*----------------------------------------------*/
+    #menu {
+          display: none; /* hide hamburger button */
+      }
+  
+      .navigation {
+          flex-direction: row;
+      }
+  
+      .navigation a {
+          display: block;
+          flex: 1 1 100%;
+      }
+  }
