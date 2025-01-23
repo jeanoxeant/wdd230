@@ -61,13 +61,16 @@ footer img {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #042f2f;
     color: #ffffff;
     font-size: 2rem;
 }
 
-.hero img {
-    max-width: 100%;
+.active {
+    
 }
+
+
 
 h1 {
     /*font-weight: 100;*/
