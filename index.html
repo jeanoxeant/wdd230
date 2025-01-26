@@ -27,7 +27,7 @@
         🕶️
     </div>
     <header>
-        <img src="images/profile1.jpg" width="75" height="100" alt="Jean Oxeant Profile">
+        <img src="images/profile1.webp" width="75" height="100" alt="Jean Oxeant Profile">
         <p>Jean Rubin Oxeant</p> 
     </header>
     <button id="menu"></button>
@@ -40,6 +40,16 @@
         </ul>   
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <img src="images/hero-large.webp" alt="temple" width="960" height="250"> 
+            </picture>
+            <div class="herolabel">
+                <p>Port-au-Prince Temple</p>
+            </div>
+        </div>
+        
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="block">
             <section class="card">
@@ -60,10 +70,11 @@
                 <p>Pages: 15</p>
             </section>
         </div>
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=oute de Frères, freres 23, haiti&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkiphasez.com/">Sprunki Phase</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> ‖ Jean Rubin Oxeant ‖ Dominican Republic <img src="images/dom-flag.jpg"
-                width="50" height="25" alt="Jean Oxeant"></p>
+            width="50" height="25" alt="Jean Oxeant"></p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer> 
 </body>
