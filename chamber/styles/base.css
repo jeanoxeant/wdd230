@@ -162,7 +162,7 @@ footer {
 font-size: 1.5rem;
 border: 0;
 background: none;
-color: #000;
+color: #ffffff;
 position: absolute;
 top: 1rem;
 right: 1rem;
@@ -208,8 +208,67 @@ ul {
 }
 
 /*--------------------------Responsive image---------------------------*/
+/*
 .hero img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.hero h2 {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	
+}
+
+.hero a {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family:"Great Vibes", serif;
+}
+*/
+/*------New hero images-----*/
+
+.hero {
+	/*margin: 10px auto;*/
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	/*opacity: 0.75;*/
+	/* Buenas */
+    border-radius: 20%;
+}
+
+.herolabel a {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family:"Great Vibes", serif;
+    background-color: yellow;
+    
 }
