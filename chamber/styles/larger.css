@@ -71,6 +71,23 @@
       grid-template-columns: 1fr 1fr;
       text-align: left;
     }
+
+    /*-----------------Discovery Page---------------*/
+    
+  
+    #sidebar {
+      grid-column: 1/2;
+    }
+  
+    #fotos {
+      grid-column: 2/4;
+      width: 100%;
+    }
+
+    #fotos img:hover {
+      box-shadow: 0 0 50px #333;
+      border-radius: 15px 150px;
+    }
   
   
   }
