@@ -271,3 +271,9 @@ ul {
 #sidebar, #fotos {
     margin-top: 1rem;
 }
+
+#message {
+    padding-left: .5rem;
+    padding-top: 2rem;
+    font-style:oblique;
+}
