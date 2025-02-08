@@ -37,6 +37,7 @@ body {
       tr:nth-last-child(1) {
         background-color: #333;
       }
+
     }
   
     tbody tr:nth-child(even) {
