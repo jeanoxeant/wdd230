@@ -66,3 +66,34 @@
 .wf1 input:required:valid {
     border-bottom: solid 8px;
 }
+/*----------Input----------*/
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+
+label {
+	display: block;
+	font-weight: 700;
+}
+
+input[type=text], input[type=range], input[type=radio] {
+	margin: 1rem;
+	padding: 0.5em;
+}
