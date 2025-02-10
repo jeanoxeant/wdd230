@@ -22,13 +22,10 @@
     font-size: .9rem;
 }
 
-.wf1 input[type="text"],
-.wf1 input[type="tel"], 
+.wf1 input[type="text"], 
 .wf1 input[type="email"], 
-.wf1 input[type="url"], 
-.wf1 input[type="date"], 
-.wf1 select, 
-.wf1 input[type="number"]  
+.wf1 input[type="password"], 
+.wf1 input[type="range"]  
 {
     background-color: deeppink;
     display: block;
@@ -39,12 +36,6 @@
     width: 100%;
     max-width: 400px;
     appearance: none;
-}
-
-.wf1 input[type="radio"],
-.wf1 input[type="checkbox"]
-{
-    margin-right: 6px;
 } 
 
 .wf1 input[type="submit"] {
