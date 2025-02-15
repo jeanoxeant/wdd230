@@ -1,0 +1,35 @@
+{
+    "familyName": "Oxeant",
+    "dateMovedWard": "January 06, 2025",
+    "numberRecords": 5,
+    "visitedBishopric": 3,
+    "familyMembers": [
+        {
+            "name": "Julio",
+            "gender": "male",
+            "birthDate": "October 24, 1990"
+        },
+        {
+            "name": "John",
+            "gender": "male",
+            "birthDate": "May 04, 1995"
+        },
+        {
+            "name": "David",
+            "gender": "male",
+            "birthDate": "July 08, 1998"
+        },
+        {
+            "name": "Judith",
+            "gender": "female",
+            "birthDate": "November 16, 2011"
+        },
+        {
+            "name": "Jennifer",
+            "gender": "female",
+            "birthDate": "December 18, 2014"
+        }
+    ]
+    
+
+}
