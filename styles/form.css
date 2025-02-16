@@ -32,12 +32,12 @@
 .wf2 input[type="password"], 
 .wf2 input[type="range"]  
 {
-    background-color: deeppink;
+    background-color: #fdbade;
     display: block;
     border: solid 1px #999;
     border-radius: 6px;
     padding: .75rem;
-    color: #555;
+    color: #5f0c0c;
     width: 100%;
     max-width: 400px;
     appearance: none;
