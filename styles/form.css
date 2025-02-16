@@ -40,7 +40,7 @@
     color: #5f0c0c;
     width: 100%;
     max-width: 300px;
-    appearance: none;
+    /*appearance: none;*/
 } 
 
 .wf2 input[type="submit"] {
@@ -75,8 +75,8 @@
 
 .team #rangevalues {
 	display: flex;
-	/*margin: 0 0 0 25px;*/
-	width: 200px;
+	margin: 0 0 0 15px;
+	width: 185px;
 }
 
 .team #r {
@@ -85,7 +85,6 @@
 
 .team #rangevalues option {
 	flex: 1 1 auto;
-    
 }
 
 
@@ -104,5 +103,4 @@
 .team input[type=range] {
     padding-left: 0.5rem;
 }
-
 
