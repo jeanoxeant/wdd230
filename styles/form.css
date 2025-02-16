@@ -1,31 +1,31 @@
-.wf1 fieldset {
+.wf2 fieldset {
     margin: 2rem 0; 
     border-radius: 6px;
     padding: .5rem 2%;
 }
 
-.wf1 legend {
+.wf2 legend {
     color: #445ba9;
     padding: 0 .5rem;
 }
 
-.wf1 label {
+.wf2 label {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .9rem;
 }
 
-.wf1 div {
+.wf2 div {
     padding-top: 1rem;
     color: #445ba9;
     font-size: .9rem;
 }
 
-.wf1 input[type="text"], 
-.wf1 input[type="email"], 
-.wf1 input[type="password"], 
-.wf1 input[type="range"]  
+.wf2 input[type="text"], 
+.wf2 input[type="email"], 
+.wf2 input[type="password"], 
+.wf2 input[type="range"]  
 {
     background-color: deeppink;
     display: block;
@@ -38,7 +38,7 @@
     appearance: none;
 } 
 
-.wf1 input[type="submit"] {
+.wf2 input[type="submit"] {
     border: none;
     background-image: linear-gradient(#9c2c13, #6f200e);
     color: #fff;
@@ -50,41 +50,54 @@
     box-shadow: 1px 1px 4px #999;
 }
 
-.wf1 input:required {
+.wf2 input:required {
     border-bottom: solid 8px;
 }
 
-.wf1 input:required:valid {
+.wf2 input:required:valid {
     border-bottom: solid 8px;
 }
 /*----------Input----------*/
-#r {
+.team #r {
 	width: 180px;
 	margin-bottom: 0;
 }
 
-#rangevalue {
+.team #rangevalue {
 	font-size: 2rem;
 	color: navy;
 }
 
-#rangevalues {
+.team #rangevalues {
 	display: flex;
-	margin: 0 0 0 25px;
+	/*margin: 0 0 0 25px;*/
 	width: 200px;
 }
 
-#rangevalues option {
+.team #r {
+    max-width: 800px;
+}
+
+.team #rangevalues option {
 	flex: 1 1 auto;
+    
 }
 
 
-label {
+.team label {
 	display: block;
 	font-weight: 700;
 }
-
-input[type=text], input[type=range], input[type=radio] {
+/*
+.team input[type=text], input[type=range] {
 	margin: 1rem;
 	padding: 0.5em;
+    width: 400px;
 }
+*/
+
+.team input[type=range] {
+    padding-left: 0.5rem;
+}
+
+
