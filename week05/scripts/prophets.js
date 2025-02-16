@@ -11,8 +11,8 @@ async function getProphetData() {
   
 const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
-         // Create elements to add to the div.cards element
-         let card = document.createElement('section');
+        // Create elements to add to the div.cards element
+        let card = document.createElement('section');
         let fullName = document.createElement('h2'); // fill in the blank
         let portrait = document.createElement('img');
         let birthDate = document.createElement('h4');
