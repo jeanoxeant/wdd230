@@ -236,3 +236,6 @@ content: "📍";  /* just a wayfinding symbol for the user */
     }
 }
 
+figure {
+    text-align: center;
+}
