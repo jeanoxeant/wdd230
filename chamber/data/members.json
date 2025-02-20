@@ -1,0 +1,72 @@
+{
+    "companies": [
+      {
+        "name": "PUCMM",
+        "address": "Abraham Lincoln esq. Simón Bolívar, Santo Domingo",
+        "phone": "8095801962",
+        "website": "https://pucmm.edu.do/",
+        "image": "./images/logo-pucmm.webp",
+        "membership_level": "Bronze",
+        "industry": "University",
+        "company_contact": {
+          "contact_person": "Dr. Secilio Espinal Espinal",
+          "email": "info@pucmm.edu.do"
+        }
+      },
+      {
+        "name": "INTEC",
+        "address": "Avenida de Los Próceres #49, Los Jardines del Norte 10602, Santo Domingo",
+        "phone": "8095679271",
+        "website": "https://www.intec.edu.do/",
+        "image": "./images/logo-intec.webp",
+        "membership_level": "Gold",
+        "industry": "University",
+        "company_contact": {
+          "contact_person": "Julio Sánchez Maríñez",
+          "email": "egresados@intec.edu.do"
+        }
+      },
+      {
+        "name": "UTESA",
+        "address": "Av. Salvador Estrella Sadhalá esq, Santiago de los Caballeros 51000",
+        "phone": "8095827156",
+        "website": "https://www.utesa.edu/home/index.php",
+        "image": "./images/logo-utesa.webp",
+        "membership_level": "Gold",
+        "industry": "University",
+        "company_contact": {
+          "contact_person": "Maira Rafaela Vargas Martínez",
+          "email": "vacademicasede@utesa.edu"
+        }
+      },
+      {
+        "name": "PEDREIRA",
+        "address": "C. México &, Santiago de los Caballeros 51000",
+        "phone": "+18092272309",
+        "website": "https://pedreiragroup.com/",
+        "image": "./images/logo-pedreira.webp",
+        "membership_level": "Silver",
+        "industry": "Construction",
+        "company_contact": {
+          "contact_person": "Miguel",
+          "email": "info@pedreiragroup.com"
+        }
+      },
+      {
+        "name": "MARFA",
+        "address": "Av. George Washington Plaza Malecón Center, Suite 310-C. Distrito Nacional (DO)Santo Domingo",
+        "phone": "809-548-6001",
+        "website": "https://grupomarfa.com/",
+        "image": "./images/logo-marfa.webp",
+        "membership_level": "NP Membership",
+        "industry": "Construction",
+        "company_contact": {
+          "contact_person": "Miguel Sanchez",
+          "email": "servicioalcliente@grupomarfa.com"
+        }
+      }
+      
+      
+
+    ]
+}
