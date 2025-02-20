@@ -1,7 +1,7 @@
 {
     "weeks": [
       {
-        "week": "Week 1",
+        "week": "01",
         "links": [
           {
             "url":"week01/holygrail.html",
@@ -14,7 +14,7 @@
         ]
       },
       {
-        "week": "Week 2",
+        "week": "02",
         "links": [
           {
             "url":"week02/design.html",
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "week": "Week 3",
+        "week": "03",
         "links": [
           {
             "url":"week03/images/landscape.webp",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "week": "Week 4",
+        "week": "04",
         "links": [
           {
             "url":"week04/hhttps://codepen.io/Jean-Rubin-Oxeant/pen/EaYzbGM",
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "week": "Week 5",
+        "week": "05",
         "links": [
           {
             "url":"week05/https://codepen.io/Jean-Rubin-Oxeant/pen/yyLLVPQ",

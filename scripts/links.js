@@ -1,27 +1,42 @@
 const baseURL = "https://jeanoxeant.github.io/wdd230/";
 const linksURL = "https://jeanoxeant.github.io/wdd230/data/links.json";
-const cards = document.querySelector("#cards");
+//const cards = document.querySelector("#cards");
 
-async function getLinks() {
-  const response = await fetch(linksURL);
-  const data = await response.json();
-  displayLinks(data);
+async function apiFetch() {
+  try {
+      const response = await fetch(linksURL);
+      const data = await response.json();
+      console.log(data);
+      displayLinks(data.weeks);
+  } catch (error) {
+      console.log(error);
+  }
 }
 
-const displayLinks = (weeks) => {
-  weeks.foreach((week) => {
-    let card = document.createElement("section");
-    let week = document.createElement("p");
-    let activity = document.createElement("a");
+apiFetch();
 
-    week.textcontent = `${week.lesson}`;
-    activity.setAttribute("href", week.url);
-    activity.setAttribute("");
+const displayLinks = (data) => {
+  const cards = document.querySelector('#links-list'); // Assuming you have a div with id 'links-list' to append links
+  data.forEach((week) => {
+      let card = document.createElement('div');
+      let weeks = document.createElement('ul');
 
-    card.appendChild(week);
-    card.appendChild(activity);
+      weeks.textContent = `Week ${week.week}: `;
 
-    cards.appendChild(card);
+      week.links.forEach((link, index) => {
+          let listItem = document.createElement('li');
+          let anchor = document.createElement('a');
+          anchor.href = link.url;
+          anchor.textContent = link.title;
+          listItem.appendChild(anchor);
+          if (index < week.links.length - 1) {
+              // Add pipe character between links, except for the last one
+              listItem.appendChild(document.createTextNode(' | '));
+          }
+          weeks.appendChild(listItem);
+      });
+
+      card.appendChild(weeks);
+      cards.appendChild(card);
   });
-};
-getLinks();
+}
