@@ -17,12 +17,12 @@
         "week": "Week 2",
         "links": [
           {
-            "url":"week02/holygrail.html",
-            "title":"HG Layout"
+            "url":"week02/design.html",
+            "title":"Design Principles"
           },
           {
-            "url":"week02/media-query.html",
-            "title":"mQueries"
+            "url":"week02/bom.html",
+            "title":"DOM Manipulation"
           }
         ]
       },
@@ -30,12 +30,16 @@
         "week": "Week 3",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"week03/images/landscape.webp",
+            "title":"WebP"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url":"week03/lazyload.html",
+            "title":"Lazy Loading"
+          },
+          {
+            "url":"week03/responsive-images.html",
+            "title":"Responsive Images"
           }
         ]
       },
@@ -43,12 +47,16 @@
         "week": "Week 4",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"week04/hhttps://codepen.io/Jean-Rubin-Oxeant/pen/EaYzbGM",
+            "title":"CSS Pseudo-Classes"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url":"week04/media-query.html",
+            "title":"CSS Combinators"
+          },
+          {
+            "url":"week04/tablebuild.html",
+            "title":"HTML Tables"
           }
         ]
       },
@@ -56,12 +64,20 @@
         "week": "Week 5",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url":"week05/https://codepen.io/Jean-Rubin-Oxeant/pen/yyLLVPQ",
+            "title":"Pseudo-elements"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url":"week05/new-ward-members.json",
+            "title":"JSON"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"Fetch API"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Weather API"
           }
         ]
       }
