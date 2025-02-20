@@ -16,7 +16,7 @@ async function apiFetch() {
 apiFetch();
 
 const displayLinks = (data) => {
-  const cards = document.querySelector('#links-list'); // Assuming you have a div with id 'links-list' to append links
+  const cards = document.querySelector('#list'); // Assuming you have a div with id 'links-list' to append links
   data.forEach((week) => {
       let card = document.createElement('div');
       let weeks = document.createElement('ul');

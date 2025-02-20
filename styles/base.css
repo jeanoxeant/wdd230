@@ -101,8 +101,12 @@ footer {
     padding-bottom: 1rem;
 }
 
-.mod a {
+#list a {
     margin-left: 10px;
+}
+
+#list li {
+    list-style-type: none;
 }
 
 /*---------------------------*/
