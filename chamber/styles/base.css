@@ -368,7 +368,7 @@ input[type=text], input[type=range], input[type=radio] {
     margin-bottom: 2rem;
 }
 
-/*------------------Discovery--------------------*/
+
 /*-----------------Directory----------------------*/
 * {
     box-sizing: border-box;
@@ -386,7 +386,7 @@ input[type=text], input[type=range], input[type=radio] {
     font-weight: 700;
   }
   
-  section {
+  .grid-directory section {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
     background-color: #eee;
@@ -444,23 +444,23 @@ input[type=text], input[type=range], input[type=radio] {
     background-color: rgb(197, 197, 197);
   }
   
-  section h3 {
+  .grid-directory section h3 {
     font-size: 1.5rem;
   }
   
-  section p {
+  .grid-directory section p {
     font-weight: 600;
     font-size: smaller;
   }
   
-  section a {
+  .grid-directory section a {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 0.85rem;
     color: navy;
     letter-spacing: 1.1pt;
   }
   
-  img {
+  .grid-directory img {
     height: 75px;
     max-width: 100%;
   }
