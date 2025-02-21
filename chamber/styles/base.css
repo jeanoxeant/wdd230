@@ -367,3 +367,101 @@ input[type=text], input[type=range], input[type=radio] {
 .body {
     margin-bottom: 2rem;
 }
+
+/*------------------Discovery--------------------*/
+/*-----------------Directory----------------------*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+  }
+  
+  .menu button {
+    padding: 1rem;
+    font-weight: 700;
+  }
+  
+  section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+  }
+  
+  #cards {
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+  }
+  
+  #cards section {
+    text-align: center;
+  }
+  
+  #cards img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+  }
+  
+  #cards section > * {
+    margin: 0.1rem;
+  }
+  
+  #cards h3 {
+    font-family: "Caveat", cursive;
+  }
+  
+  
+  
+  .list-directory p {
+    display: none;
+  }
+  .list-directory section {
+    display: grid;
+    gap: 10px;
+    padding: 0.25rem;
+    width: 100%;
+  }
+  
+  .list-directory section > * {
+    margin: 0 1rem;
+  }
+  
+  .list-directory section img {
+    display: none; /* smaller viewports only */
+  }
+  
+  .list-directory section h3 {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+  
+  .list-directory section:nth-child(even) {
+    background-color: rgb(197, 197, 197);
+  }
+  
+  section h3 {
+    font-size: 1.5rem;
+  }
+  
+  section p {
+    font-weight: 600;
+    font-size: smaller;
+  }
+  
+  section a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: navy;
+    letter-spacing: 1.1pt;
+  }
+  
+  img {
+    height: 75px;
+    max-width: 100%;
+  }
+  
