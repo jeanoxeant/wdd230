@@ -1,5 +1,5 @@
 const baseURL = "https://jeanoxeant.github.io/wdd230/";
-const linksURL = "https://jeanoxeant.github.io/wdd230/data/links.json";
+const linksURL = "https://jeanoxeant.github.io/wdd230/chamber/data/members.json";
 
 
 async function apiFetch() {
@@ -7,7 +7,7 @@ async function apiFetch() {
       const response = await fetch(linksURL);
       const data = await response.json();
       console.log(data);
-      displayLinks(data.weeks);
+      displayLinks(data.companies);
   } catch (error) {
       console.log(error);
   }
@@ -16,10 +16,10 @@ async function apiFetch() {
 apiFetch();
 
 const displayLinks = (data) => {
-  const cards = document.querySelector('#list'); 
+  const cards = document.querySelector('#list'); // Assuming you have a div with id 'links-list' to append links
   data.forEach((week) => {
       let card = document.createElement('div');
-      let weeks = document.createElement('ul');
+      let weeks = document.createElement('section');
 
       weeks.textContent = `Week ${week.week}: `;
 
@@ -30,13 +30,13 @@ const displayLinks = (data) => {
           anchor.textContent = link.title;
           listItem.appendChild(anchor);
           if (index < week.links.length - 1) {
-              
+              // Add pipe character between links, except for the last one
               listItem.appendChild(document.createTextNode(' | '));
           }
           weeks.appendChild(listItem);
       });
 
-      card.appendChild(weeks);
+      card.appendChild(companies);
       cards.appendChild(card);
   });
 }
